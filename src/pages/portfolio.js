@@ -11,7 +11,7 @@ class Portfolio extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedType: "Birds Photography",
+      selectedType: "People Art",
       photoIndex: 0,
       isOpen: false,
       
@@ -44,7 +44,7 @@ class Portfolio extends Component {
       <Layout>
       <div className="container portfolio-listing">      
         <div className="text-center pad-40">
-          <h2 className="section-title">My Random Clicks....!!</h2>
+          <h2 className="section-title">My Random Drawings....!!</h2>
         </div>
         <ul className="tab-list">
           {              

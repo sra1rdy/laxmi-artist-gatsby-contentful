@@ -294,7 +294,7 @@ query allImgsQuery {
         preview
         original
         timestamp
-        # caption
+        #caption
         localFile {
           childImageSharp {
             fixed(width: 200, height: 200) {

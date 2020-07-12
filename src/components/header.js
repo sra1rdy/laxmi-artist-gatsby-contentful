@@ -24,7 +24,7 @@ export class Header extends Component {
                     <Link to="/about/">About</Link>
                   </li>
                   <li>
-                    <Link to="/randomclicks/">Portfolio</Link>
+                    <Link to="/randomdrawings/">Portfolio</Link>
                   </li>
                   <li>
                     <Link to="/blog/">Blog </Link>
