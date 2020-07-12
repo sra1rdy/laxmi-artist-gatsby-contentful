@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { graphql } from 'gatsby'
 import classNames from "classnames";
 
 
