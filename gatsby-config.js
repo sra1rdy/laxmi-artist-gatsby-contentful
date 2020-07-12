@@ -65,7 +65,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `sanket_patel_me`,
+        username: `laxminarayanakotari`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

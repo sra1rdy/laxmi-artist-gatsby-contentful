@@ -70,7 +70,7 @@ class Blogpreview extends Component {
                 <div className="entry-content-bottom">                      
                   <Link to={blog.slug} className="entry-read-more">
                     <span />
-                    Read More
+                    Explore
                   </Link>
                 </div>
               </article>

@@ -11,7 +11,7 @@ class RandomClicks extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedType: "Birds Photography",
+      selectedType: "Birds Arts",
       photoIndex: 0,
       isOpen: false,
       
@@ -51,7 +51,7 @@ class RandomClicks extends Component {
           {              
               CategoryUnique.map(( i)=> {
                 return (    
-                  <li key={i} value={i}  onClick={this.handleItemClick} data-value={i} className={this.state.selectedType === i ? 'active grad-btn' : 'grad-btn'} >{i.split(' ')[0]}</li>
+                  <li key={i} value={i}  onClick={this.handleItemClick} data-value={i} className={this.state.selectedType === i ? 'active grad-btn' : 'grad-btn'} >{i.toString().split(' ')[0]}</li>
                 
                 );           
               })

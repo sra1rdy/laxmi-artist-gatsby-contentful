@@ -81,7 +81,7 @@ class BlogPostTemplate extends Component {
                 <div className="post-content">
                   <h2 className="section-headline"> {singlepost.blogTitle} </h2>   
                   <p dangerouslySetInnerHTML={{
-                   __html: singlepost.childContentfulPortfolioBlogDescriptionTextNode.childMarkdownRemark.html}} />
+                   __html: singlepost.childContentfulPortfolioBlogShortDescTextNode.childMarkdownRemark.html}} />
                 </div>     
               </div>
               <div className="col-md-4 offset-md-1 ">
@@ -122,11 +122,11 @@ export const pageQuery = graphql`
     contentfulPortfolio(slug: { eq: $slug }) {
       blogTitle  
       slug
-      # childContentfulPortfolioBlogDescriptionTextNode{
-      #   childMarkdownRemark{
-      #     html
-      #   }
-      # }
+      childContentfulPortfolioBlogShortDescTextNode{
+        childMarkdownRemark{
+          html
+        }
+      }
       # galleryImage{
       #   file{
       #     url
