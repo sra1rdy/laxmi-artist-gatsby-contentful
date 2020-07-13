@@ -1,19 +1,19 @@
   <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
   <p align="center">
-    <a href="https://myclicks.netlify.com/">
-      <img alt="myclicks" src="https://github.com/himali-patel/MyClicks/blob/master/src/images/logo.png" width="200" />
+    <a href="https://laxmi-narayana-artist.netlify.app/">
+      <img alt="laxmiArts" src="https://github.com/sra1rdy/laxmi-artist-gatsby-contentful/blob/master/src/images/logo-artist.png" width="200" />
     </a>
   </p>
   <h1 align="center">
-    MyClicks
+    LaxmiArts
   </h1>
 
-  Kick off your Portfolio Website with  gatsby + contentful demo. You can have a look at this demo url: [https://myclicks.netlify.com/](https://myclicks.netlify.com/).
+  A web application for an artist built with gatsby + contentful and deployed to netlify. You can have a look at this url: [https://laxmi-narayana-artist.netlify.app/](https://laxmi-narayana-artist.netlify.app/).
   
   <img src="https://github.com/himali-patel/MyClicks/blob/master/docs/screenshot.png" />
     
   Live Demo:
-  https://myclicks.netlify.com/
+ https://laxmi-narayana-artist.netlify.app/
 
 
   ## 🚀 Quick start
@@ -24,7 +24,7 @@
 
       ```sh
       # Clone this Repositories
-      gatsby new your-project-name https://github.com/himali-patel/MyClicks
+      gatsby new your-project-name https://github.com/sra1rdy/laxmi-artist-gatsby-contentful
       ```
 
   1.  **Start developing.**
@@ -32,7 +32,7 @@
       Navigate into your new site’s directory and start it up.
 
       ```sh
-      cd MyClicks/
+      cd MyArts/
       gatsby develop
       ```
 
